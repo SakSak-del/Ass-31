@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Assignment-31(Product Preview Design)</title>
+    <title>product preview</title>
 <style>
 #main-img{
      width:400px;
@@ -29,28 +29,28 @@
 </style>
 </head>
 <body>
-<img src="main-img.jpg" id="main-img">
+<img src="images/main-img.jpg" id="main-img">
 <div class="p-img-container">
-<img src="1-img.jpg" id="p-img" onclick="changeImage(1)">
+<img src="images/1-img copy.jpg" id="p-img" onclick="changeImage(1)">
 
-<img src="2-img.jpg" id="p-img" onclick="changeImage(2)">
-<img src="3-img.jpg" id="p-img" onclick="changeImage(3)">
-<img src="4-img.jpg" id="p-img" onclick="changeImage(4)">
-<img src="5-img.jpg" id="p-img" onclick="changeImage(5)">
+<img src="images/2-img.jpg" id="p-img" onclick="changeImage(2)">
+<img src="images/3-img.jpg" id="p-img" onclick="changeImage(3)">
+<img src="images/4-img.jpg" id="p-img" onclick="changeImage(4)">
+<img src="images/5-img.jpg" id="p-img" onclick="changeImage(5)">
 </div>
 <script>
     function changeImage(num){
       const mainImg=document.getElementById("main-img");
       if(num==1){
-        mainImg.src="1-img.jpg";
+        mainImg.src="./images/1-img.jpg";
       }else if(num==2){
-        mainImg.src="2-img.jpg";
+        mainImg.src="./images/2-img.jpg";
       }else if(num==3){
-        mainImg.src="3-img.jpg";
+        mainImg.src="./images/3-img.jpg";
       }else if(num==4){
-        mainImg.src="4-img.jpg";
+        mainImg.src="./images/4-img.jpg";
      }else if(num==5){
-       mainImg.src="5-img.jpg";
+       mainImg.src="./images/5-img.jpg";
       
       }
     }
